@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
+
+
+main {
+height: 100vh;
+width: 100vw;
+    background-image: linear-gradient( 135deg, #4e0075, #9d43ca, #d177ff );
+}
+
+h1 {
+
+text-align: center;
+font-size: 120px;
+font-family: Luckiest Guy;
+color: #32c0c1;
+text-shadow: #32c1c183 5px 2px 2px;
+
+
+
+}
+h2 {
+
+text-align: center;
+font-size: 50px;
+font-family: Comic Neue ;
+color: #f53098;
+
+
+}
+
+form > input#iapelido{
+
+    color: black;
+    height: 30px;
+border-radius: 20px;
+text-align: center;
+font-family: Roboto;
+box-shadow: none;
+
+
+
+}
+
+form > input#isenha{
+
+    color: black;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Roboto;
+    box-shadow: none;
+    margin: 10px;
+
+}
+
+section#login{
+text-align: center;
+
+}
+
+a#botao {
+
+text-align: center;
+padding: 10px;
+width: 80vw;
+background-color: #dea051;
+text-decoration: none;
+color: white;
+border-radius: 20px;
+margin-bottom: 20px;
+}
+
+#esqueceu {
+text-decoration: none;
+color: white;
+font-family: Roboto;
+margin: 10px;
+}
