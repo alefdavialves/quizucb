@@ -19,6 +19,7 @@ main {
     height: 100vh;
     width: 100vw;
     background-image: linear-gradient( 135deg, #4e0075, #9d43ca, #d177ff );
+   
 
 }
 
@@ -42,6 +43,12 @@ h2 {
 
 }
 
+section#principal {
+padding: 70px;
+
+
+}
+
 form > input#iapelido{
 
     color: black;
@@ -57,7 +64,6 @@ form > input#iapelido{
 
 form > input#isenha{
 
-    color: black;
     height: 30px;
     border-radius: 20px;
     text-align: center;
@@ -70,7 +76,7 @@ form > input#isenha{
 
 section#login{
 text-align: center;
-
+margin-top: 50px;
 }
 
 input#botao {
