@@ -52,25 +52,28 @@ padding: 70px;
 form > input#iapelido{
 
     color: black;
-    height: 30px;
-    border-radius: 20px;
     text-align: center;
     font-family: Roboto;
-    box-shadow: none;
-    width: 70vw;
 
+    height: 30px;
+    border-radius: 20px;
+
+    width: 70vw;
+    padding: 3px;
 
 }
 
 form > input#isenha{
 
-    height: 30px;
     border-radius: 20px;
+
     text-align: center;
     font-family: Roboto;
-    box-shadow: none;
+   
+    height: 30px;
     margin: 10px;
     width: 70vw;
+    padding: 3px;
 
 }
 
