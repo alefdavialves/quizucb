@@ -15,28 +15,29 @@
 
 
 main {
-height: 100vh;
-width: 100vw;
+
+    height: 100vh;
+    width: 100vw;
     background-image: linear-gradient( 135deg, #4e0075, #9d43ca, #d177ff );
+
 }
 
 h1 {
 
-text-align: center;
-font-size: 120px;
-font-family: Luckiest Guy;
-color: #32c0c1;
-text-shadow: #32c1c183 5px 2px 2px;
-
-
+    text-align: center;
+    font-size: 120px;
+    font-family: Luckiest Guy;
+    color: #32c0c1;
+    text-shadow: #32c1c183 5px 2px 2px;
 
 }
+
 h2 {
 
-text-align: center;
-font-size: 50px;
-font-family: Comic Neue ;
-color: #f53098;
+    text-align: center;
+    font-size: 50px;
+    font-family: Comic Neue ;
+    color: #f53098;
 
 
 }
@@ -45,11 +46,11 @@ form > input#iapelido{
 
     color: black;
     height: 30px;
-border-radius: 20px;
-text-align: center;
-font-family: Roboto;
-box-shadow: none;
-
+    border-radius: 20px;
+    text-align: center;
+    font-family: Roboto;
+    box-shadow: none;
+    width: 70vw;
 
 
 }
@@ -63,6 +64,7 @@ form > input#isenha{
     font-family: Roboto;
     box-shadow: none;
     margin: 10px;
+    width: 70vw;
 
 }
 
@@ -71,21 +73,22 @@ text-align: center;
 
 }
 
-a#botao {
+input#botao {
 
-text-align: center;
-padding: 10px;
-width: 80vw;
-background-color: #dea051;
-text-decoration: none;
-color: white;
-border-radius: 20px;
-margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 70vw;
+    background-color: #dea051;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
 }
 
 #esqueceu {
-text-decoration: none;
-color: white;
-font-family: Roboto;
-margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    margin: 10px;
 }
