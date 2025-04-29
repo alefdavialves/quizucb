@@ -63,6 +63,14 @@ form > input#iapelido{
 
 }
 
+form > input#iapelido:hover {
+    background-color: #32c0c1;
+}
+
+form > input#iapelido:active {
+    background-color: #32c0c1;
+}
+
 form > input#isenha{
 
     border-radius: 20px;
@@ -75,6 +83,13 @@ form > input#isenha{
     width: 70vw;
     padding: 3px;
 
+}
+
+form > input#isenha:hover {
+    background-color: #32c0c1;
+}
+form > input#isenha:active {
+    background-color: #32c0c1;
 }
 
 section#login{
@@ -93,6 +108,11 @@ input#botao {
     border-radius: 20px;
     margin-bottom: 10px;
 
+}
+
+input#botao:hover{
+    background-color: #f0c68f;
+    color: black;
 }
 
 #esqueceu {
