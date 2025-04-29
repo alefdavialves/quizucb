@@ -55,7 +55,7 @@ form > input#iapelido{
     text-align: center;
     font-family: Roboto;
 
-    height: 30px;
+    height: 50px;
     border-radius: 20px;
 
     width: 70vw;
@@ -78,7 +78,7 @@ form > input#isenha{
     text-align: center;
     font-family: Roboto;
    
-    height: 30px;
+    height: 50px;
     margin: 10px;
     width: 70vw;
     padding: 3px;
@@ -102,6 +102,7 @@ input#botao {
     text-align: center;
     padding: 10px;
     width: 70vw;
+    height: 60px;
     background-color: #dea051;
     text-decoration: none;
     color: white;
@@ -119,5 +120,6 @@ input#botao:hover{
     text-decoration: none;
     color: white;
     font-family: Roboto;
+    font-size: 20px;
     margin: 10px;
 }
