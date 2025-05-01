@@ -8,7 +8,6 @@
 
 
 *{
-
     padding: 0px;
     margin: 0px;
 }
@@ -48,6 +47,7 @@ h2 {
 
 section#principal {
 padding: 30px;
+padding-top: 60px;
 display: flex;
 flex-flow: column wrap;
 align-items: center;
