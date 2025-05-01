@@ -134,6 +134,8 @@ form > input#isenha {
 section#login{
 text-align: center;
 margin-top: 50px;
+display: flex;
+flex-flow: column nowrap;
 }
 
 input#botao {
@@ -163,5 +165,12 @@ input#botao:hover{
     color: white;
     font-family: Roboto;
     font-size: 20px;
-    margin: 10px;
+    margin-top: 10px;
+}
+
+img#terra {
+    padding-left: 10px;
+    width: 40px;
+    flex: auto;
+    align-self: self-start;
 }
