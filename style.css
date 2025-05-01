@@ -16,6 +16,7 @@
 main {
 
     height: 100vh;
+    overflow-y: hidden;
     width: 100vw;
     background-image: linear-gradient( 135deg, #4e0075, #9d43ca, #d177ff );
    
