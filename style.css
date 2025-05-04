@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 
 
@@ -20,8 +20,15 @@ main {
     width: 100vw;
     background-image: linear-gradient( 135deg, #4e0075, #9d43ca, #d177ff );
    
-
 }
+
+section#principal {
+    padding: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+    }
 
 h1 {
 
@@ -43,14 +50,6 @@ h2 {
     color: #f53098;
     flex: auto;
     align-self: center;
-
-}
-
-section#principal {
-padding: 30px;
-display: flex;
-flex-flow: column wrap;
-align-items: center;
 
 }
 
@@ -76,9 +75,14 @@ width: 30px;
 flex: auto;
 align-self: self-end;
 margin: 0px;
-
-
 }
+
+section#login{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    }
 
 form > input#iapelido{
 
@@ -129,13 +133,7 @@ form > input#iapelido {
 
 form > input#isenha {
     box-shadow: black 3px 3px 3px;
-}
-
-section#login{
-text-align: center;
-margin-top: 50px;
-display: flex;
-flex-flow: column nowrap;
+    margin-bottom: 18px;
 }
 
 input#botao {
@@ -144,8 +142,8 @@ input#botao {
     padding: 10px;
     width: 70vw;
     height: 60px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-family: 'Rajdhani';
+    font-size: 25px;
     background-color: #dea051;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -156,7 +154,7 @@ input#botao {
 }
 
 input#botao:hover{
-    background-color: #f0c68f;
+    background-color: #ffd399;
     color: black;
 }
 
